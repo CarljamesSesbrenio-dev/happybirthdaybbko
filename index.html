@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday BB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #f8f4e9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Dancing Script', cursive;
+            padding: 2rem;
+        }
+
+        .letter-container {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            max-width: 800px;
+            width: 95vw;
+            padding: 4rem 3rem;
+            margin: 2rem 0;
+            position: relative;
+            border: 1px solid #e0d9cc;
+        }
+
+        .letter-header {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.8rem;
+            color: #2c1810;
+            margin-bottom: 3rem;
+            text-align: left;
+            font-weight: 700;
+        }
+
+        .letter-body {
+            font-size: 1.6rem;
+            color: #2c1810;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+            font-family: 'Dancing Script', cursive;
+            white-space: pre-line;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+        .signature {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.2rem;
+            color: #2c1810;
+            margin-top: 4rem;
+            text-align: right;
+            font-weight: 700;
+        }
+
+        .memories-section {
+            margin-top: 5rem;
+            border-top: 2px solid #e0d9cc;
+            padding-top: 3rem;
+        }
+
+        .memories-title {
+            font-family: 'Dancing Script', cursive;
+            color: #2c1810;
+            font-size: 2.4rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .attachments {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 2.5rem;
+            justify-items: center;
+        }
+
+        .polaroid {
+            background: #fff;
+            padding: 15px;
+            width: 220px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transform: rotate(var(--rotation));
+            transition: transform 0.3s ease;
+        }
+
+        .polaroid:nth-child(odd) {
+            --rotation: -2deg;
+        }
+
+        .polaroid:nth-child(even) {
+            --rotation: 2deg;
+        }
+
+        .polaroid:hover {
+            transform: rotate(0deg) scale(1.05);
+        }
+
+        .polaroid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 1px solid #e0d9cc;
+        }
+
+        .polaroid .caption {
+            color: #2c1810;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+
+        @media (max-width: 600px) {
+            .attachments {
+                grid-template-columns: 1fr;
+            }
+            .polaroid { 
+                width: 100%;
+                max-width: 280px;
+            }
+            .letter-container {
+                padding: 2.5rem 1.5rem;
+            }
+            .letter-body {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="letter-container">
+        <div class="letter-header">My Love of my life bb ko hihi,</div>
+        <div class="letter-body">
+HELLO BB, HAPPY BIRTHDAY!! 🥳💖
+
+I LOVE YOU SO MUCH! Sobra sobra. Thank you for everything na ginagawa mo para sa akin—yung time, effort, pag-intindi, at pagmamahal mo na walang sawa. I'm really so thankful and lucky na ikaw yung kasama ko sa buhay. Sana ma-enjoy mo ang special day mo today, kasi you deserve all the love, happiness, and blessings in the world. 🥰
+
+I wish you nothing but the best in life—good health, success, peace of mind, and all your dreams coming true. And kahit anong mangyari, andito lang ako palagi para sa'yo. Please always take care of yourself, lalo na kapag wala ako sa tabi mo. Gusto ko laging okay ka. Kasi mahal na mahal kita. 💗
+
+I always treasure every single moment na magkasama tayo—yung mga bonding natin, kulitan, tawanan, soft moments, at kahit yung mga tampuhan natin. Kasi kahit may konting away or misunderstanding, dun natin mas nakikita kung gaano natin kamahal ang isa't isa. Yung mga pagsubok na dumaan, ginawa lang tayong mas matibay at mas totoo. That's why I'm so proud of us.
+
+Alam mo, simula nung dumating ka sa buhay ko, ang daming nagbago. Biglang gumaan yung mga araw ko. Kahit pagod ako, basta nakausap kita, okay na agad ako. You bring me so much happiness and comfort. You made me feel loved, appreciated, and seen. You made my life better.
+
+You are the best gift that God has ever given me. Hindi ko na hiningi, pero binigay ka Niya. And I will never stop being grateful. Kasi ikaw lang talaga yung gusto kong makasama, hindi lang ngayon, kundi panghabambuhay.
+
+So today, I celebrate you—your life, your heart, your existence. You are so special to me, and I'll never get tired of reminding you that.
+I love you so much, my BB. Mahal na mahal kita. Always and forever
+        </div>
+        <div class="signature">Yours always,<br>BB</div>
+        <div class="memories-section">
+            <div class="memories-title">Our Precious Memories</div>
+            <div class="attachments">
+                <!-- Images only -->
+                <div class="polaroid"><img src="files1/IMG_2538.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3063.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3087.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3107.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3123.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3130.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3152.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3153.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3154.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3175.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3191.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3287.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3290.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_3927.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_4882.JPG" alt="Memory"></div>
+                <div class="polaroid"><img src="files1/IMG_4899.JPG" alt="Memory"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
